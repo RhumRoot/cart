@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "axis": "x",
+        "stepPin": "5",
+        "dirPin": "6",
+        "dir": "1"
+    },
+    {
+        "id": 2,
+        "axis": "x",
+        "stepPin": "20",
+        "dirPin": "21",
+        "dir": "1",
+        "reversed": true
+    },
+    {
+        "id": 3,
+        "axis": "y",
+        "stepPin": "23",
+        "dirPin": "24",
+        "dir": "1"
+    }
+]
