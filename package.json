@@ -10,6 +10,8 @@
   "author": "RhumRoot",
   "license": "ISC",
   "dependencies": {
-    "onoff": "^4.1.1"
+    "async": "^3.0.1",
+    "onoff": "^4.1.1",
+    "vectors": "^0.1.0"
   }
 }

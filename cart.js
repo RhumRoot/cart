@@ -68,6 +68,54 @@ class Cart {
             })
         })
     }
+
+    setXDir(dir) {
+        this.driversX.forEach(driver => {
+            driver.setDir(dir)
+                .then(() => { })
+                .catch(error => {
+                    console.error(`[cart] ~~~ An error occured while setting X direction:`)
+                    console.error(error)
+                })
+        })
+    }
+
+    setYDir(dir) {
+        this.driversY.forEach(driver => {
+            driver.setDir(dir)
+                .then(() => { })
+                .catch(error => {
+                    console.error(`[cart] ~~~ An error occured while setting X direction:`)
+                    console.error(error)
+                })
+        })
+    }
+
+    stepX() {
+        return new Promise((resolve, reject) => {
+            console.log(`[cart] ~~~ Stepping X`)
+
+            this.driversX.forEach(driver => {
+                driver.move(1)
+                    .then(time => {
+                        resolve()
+                    })
+            })
+        })
+    }
+
+    stepY() {
+        return new Promise((resolve, reject) => {
+            console.log(`[cart] ~~~ Stepping Y`)
+
+            this.driversY.forEach(driver => {
+                driver.move(1)
+                    .then(time => {
+                        resolve()
+                    })
+            })
+        })
+    }
 }
 
 
