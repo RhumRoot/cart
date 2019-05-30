@@ -2,23 +2,23 @@
     {
         "id": 1,
         "axis": "x",
-        "stepPin": "5",
-        "dirPin": "6",
+        "stepPin": "2",
+        "dirPin": "3",
         "dir": "1"
     },
     {
         "id": 2,
         "axis": "x",
-        "stepPin": "20",
-        "dirPin": "21",
+        "stepPin": "17",
+        "dirPin": "27",
         "dir": "1",
         "reversed": true
     },
     {
         "id": 3,
         "axis": "y",
-        "stepPin": "23",
-        "dirPin": "24",
+        "stepPin": "5",
+        "dirPin": "6",
         "dir": "1"
     }
 ]
